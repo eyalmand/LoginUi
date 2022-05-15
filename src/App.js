@@ -8,7 +8,7 @@ function App() {
     <div className="login-wrapper">
       <BrowserRouter>
         <Switch>
-          <Route path="/Login">
+          <Route path="/">
             <Login />
           </Route>
           <Route path="/Register">
